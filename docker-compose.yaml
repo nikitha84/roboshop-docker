@@ -1,7 +1,8 @@
 networks:
-  default: #automatically  n/w connect  to services
-    extranal: true
+  default:
+    external: true
     name: roboshop
+    
 services:
   mongodb:
     image: mongodb:1
