@@ -1,6 +1,6 @@
 networks:
-  default: #automatically connect n/w to services
-    extranal: true
+  default: #automatically  n/w connect  to services
+    extranal: 
     name: roboshop
 services:
   mongodb:
